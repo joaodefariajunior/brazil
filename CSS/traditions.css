@@ -4,12 +4,11 @@
 }
 
 header {
-    background-image: url(/brasili.jpg);
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
+    background-image: url(Images/brasili.jpg);
     background-size: cover;
     color: white;
+    height: 400px;
+    width: 100%;
 margin-bottom:2%;
 
 }
