@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brazil</title>
-    <link rel="stylesheet" href="brazil.css">
+    <link rel="stylesheet" href="/CSS/brazil.css">
     <link href="https://fonts.googleapis.com/css?family=Arapey&display=swap" rel="stylesheet">
 </head>
 <header>
@@ -13,9 +13,9 @@
         <ul>
         <li>Home</li>
          <a href="tourism.html"><li>Tourism</li></a>
-        <li>Cuisine</li>
-        <li>Traditions</li>
-        <li>Contact</li>
+         <a href="cuisine.html"><li>Cuisine</li></a>
+         <a href="traditions.html"><li>Traditions</li></a>
+         <a href="#contact"><li>Contact</li></a>
        </ul>
    </nav>
      <div class="center slider">
@@ -24,11 +24,7 @@
       <div><div>Welcome to Brazil!</div></div>
       <div><div>Willkommen in Brasilien!</div></div>
       <div><div>مرحبا بك في البرازيل!</div></div>
-      <!-- <div><div>Bienvenue au Brésil!</div></div>
-      <div><div>Benvenuto in Brasile!</div></div>
-      <div><div>Mirësevini në Brazil!</div></div>
-      <div><div>Bun venit in Brazilia!</div></div> -->
-          </div>
+                </div>
     ao Brasil!
   </div>
 </header>
@@ -44,14 +40,42 @@
       <h3>  Its appearance</h3>
     <p>   The Brazilian flag is bright green with a yellow diamond in the center filled with a blue globe. Within the blue globe are some stars – 27 to be exact – and a white banner with the country’s slogan: Ordem e Progresso, which means Order and Progress.</p> 
     <div class="bandeiras">
-   <div class="cards"><h3>   The colors are symbolic</h3> <img src="bandeira.png" alt="brazilś flag"><p>   The colors of the flag have meanings. The yellow represents the wealth of the country, in particular the Brazilian soil and the country’s gold reserve. The green stands for the extensive nature, fauna, and flora that Brazil is home to, especially the Amazon rainforest and the Pantanal. During the Brazilian Empire, Brazil had a different flag and the colors had different meanings. The blue and white of the past flag represented the Virgin Mary, highlighting the country’s deep roots in the Catholic religion.</p></div>
-   <div class="cards2"><h3>   The stars have meanings</h3><img src="stras.png" alt="brazilś flag">  <p>   
+   <div class="cards"><h3>   The colors are symbolic</h3> <img src="/Images/bandeira.png" alt="brazilś flag"><p>   The colors of the flag have meanings. The yellow represents the wealth of the country, in particular the Brazilian soil and the country’s gold reserve. The green stands for the extensive nature, fauna, and flora that Brazil is home to, especially the Amazon rainforest and the Pantanal. During the Brazilian Empire, Brazil had a different flag and the colors had different meanings. The blue and white of the past flag represented the Virgin Mary, highlighting the country’s deep roots in the Catholic religion.</p></div>
+   <div class="cards2"><h3>   The stars have meanings</h3><img src="/Images/stras.png" alt="brazilś flag">  <p>   
       The stars are a symbolic part of the flag. They represent the constellations in the southern hemisphere and show how they were seen from Rio de Janeiro during the early hours of the morning on November 15, 1889, the day the country shifted from an empire to a republic.</p> </div></div>
 </article> <br> <br>
  <p>  Bounded by the Atlantic Ocean on the east, Brazil has a coastline of 7,491 kilometers (4,655 mi).[14] It borders all other countries in South America except Ecuador and Chile and covers 47.3% of the continent's land area.[15] Its Amazon River basin includes a vast tropical forest, home to diverse wildlife, a variety of ecological systems, and extensive natural resources spanning numerous protected habitats.[14] This unique environmental heritage makes Brazil one of 17 megadiverse countries, and is the subject of significant global interest and debate regarding deforestation and environmental protection.</p>
 
 <p> Brazil was inhabited by numerous tribal nations prior to the landing in 1500 of explorer Pedro Álvares Cabral, who claimed the area for the Portuguese Empire. Brazil remained a Portuguese colony until 1808, when the capital of the empire was transferred from Lisbon to Rio de Janeiro. In 1815, the colony was elevated to the rank of kingdom upon the formation of the United Kingdom of Portugal, Brazil and the Algarves. Independence was achieved in 1822 with the creation of the Empire of Brazil, a unitary state governed under a constitutional monarchy and a parliamentary system. The ratification of the first constitution in 1824 led to the formation of a bicameral legislature, now called the National Congress. The country became a presidential republic in 1889 following a military coup d'état. An authoritarian military junta came to power in 1964 and ruled until 1985, after which civilian governance resumed. Brazil's current constitution, formulated in 1988, defines it as a democratic federal republic.[16] Due to its rich culture and history, the country ranks thirteenth in the world by number of UNESCO World Heritage Sites.[17]</p>
     </section> <br>
+    <a name="contact"></a><div class="container">
+
+        <h3>Contact</h3>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="4">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." minlength="4">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email ">
+
+          <label for="reason">You would like to contact me for:</label>
+          <select id="reason" name="reason">
+            <option value="Business">Business</option>
+            <option value="collaborations">Collaborations</option>
+            <option value="patron">Patron</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     
 </body>
