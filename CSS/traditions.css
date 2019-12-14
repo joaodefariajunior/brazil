@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url(.Images/brasili.jpg);
+    background-image: url(/Images/brasili.jpg);
     background-size: cover;
     color: white;
     height: 400px;
